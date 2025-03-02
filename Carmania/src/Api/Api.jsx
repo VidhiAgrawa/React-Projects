@@ -1,4 +1,4 @@
-let songsApi = [
+const songsApi = [
     {
         "id": 1,
         "name": "Abhi Na Jao Chhod Kar",
@@ -80,3 +80,4 @@ let songsApi = [
         "category": "Bollywood"
     }
 ]
+export default songsApi

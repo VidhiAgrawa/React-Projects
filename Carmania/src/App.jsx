@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import background from './assets/background.png'
 import Input from './Components/Input.jsx'
+import Menu from './Components/Menu.jsx'
 
 function App() {
 
@@ -11,7 +12,9 @@ function App() {
         <Input/>
         <img src={background} className='backimg' /> 
       </div>
-      <div className='content'></div>
+      <div className='content'>
+        < Menu />
+      </div>
     </main>
   )
 }
