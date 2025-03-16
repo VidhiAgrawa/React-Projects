@@ -1,3 +1,11 @@
+*{
+  
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+}
 body{
   margin: 0;
   padding: 0;
@@ -7,9 +15,86 @@ body{
   width: 100vw;
 }
 main{
+  position: relative; /* Establishes a positioning context */
+  width: 100%;
+  height: 100vh;
+}
+.imgBox {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}
+.Enterbtn {
+  z-index: 1;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+button.Ebtn {
+  height: 3.4em;
+  width: 9em;
+  border-radius: 1em;
+  border: 1px solid white;
+  background-color: #D9D9D9;
+  font-size: medium;
+}
+.Loading {
+  background-color: #F2D3D1;
   height: 100vh;
   width: 100vw;
 }
-.imgBox{
+.mainDiv {
+  position: relative; 
+  width: 100%;
+  height: 100vh; 
+}
+.Back {
   height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.Background {
+  width: 86em;
+}
+
+.Back .Background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire div */
+}
+
+.textBox {
+  position: absolute;
+  top: 47%; /* Center vertically */
+  left: 40%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.Button {
+  position: absolute;
+  z-index: 1;
+  top: 65%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+.gobtn {
+  height: 2.45em;
+  width: 7em;
+  border-radius: 10px;
+  border: none;
+  background-color: #658DA6;
+  color: white;
+  font-size: medium;
 }
