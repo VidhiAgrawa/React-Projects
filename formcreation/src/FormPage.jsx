@@ -5,9 +5,9 @@ import background from './assets/background.jpg'
 
 function FormPage(props) {
   const [userInput, setUserInput] = useState("")
-  const [ dobInput, setDobInput ] = useState()
+  const [ dobInput, setDobInput ] = useState("")
   const [genderInput, setGenderInput] = useState("")
-  const[ password, setPassword ] = useState()
+  const[ password, setPassword ] = useState("")
   const navigate = useNavigate();
 
   return (
@@ -57,6 +57,9 @@ function FormPage(props) {
             <div className="submit">
                 <button className="submit-btn" onClick={() => {
                   if( userInput.trim() == "" ) return alert("write username")
+                  if( dobInput.trim() == "" ) return alert("write Date Of Birth")
+                  if( genderInput.trim() == "" ) return alert("write Gender")
+                  if( password.trim() == "" ) return alert("write password")
                     navigate(`/back` , { 
                     state : { 
                       username : userInput,
