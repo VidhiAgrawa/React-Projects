@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Practise from './Component/practise'
 
 function App() {
   const [ inputVal, setInputVal ] = useState("")
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <>
+      {/* <Practise/> */}
       <main className='flex'>
         <div className="heading flex">
           <h1>To-Do List</h1>
@@ -34,27 +36,39 @@ function App() {
               else{
                 alert("Todo Already exist")
               }
-              }
-            }>
-              <div class="button-top">
-                <span class="material-icons">❯</span>
+            }}>
+              <div className="button-top">
+                <span className="material-icons">❯</span>
               </div>
-              <div class="button-bottom"></div>
-              <div class="button-base"></div>
+              <div className="button-bottom"></div>
+              <div className="button-base"></div>
             </button>
           </div>
         </div>
-            {
-              todoList.map( (v, i) => {
-                return(
-                  <div className="answer-val" key={i}>
-                    <div className="ans">
-                      {v}
-                    </div>
+        <div className="answer-val flex">
+          {
+            todoList.map( (v, i) => {
+              return(
+                <div className={`ans-content flex `} 
+                onClick={ () => setShow(!show) } 
+                key={i}
+                >
+                  <div className={show ? "active" : ""}>
+                    {v}
                   </div>
-                )
-              } )
-            }
+                  <div className="cross" >
+                    <i class="fa-regular fa-circle-xmark" 
+                    onClick={ () => ( 
+                      setTodoList( (prev) => prev.filter(( todo ) => todo != v) ) 
+                    ) }>  
+                    </i>
+                  </div>
+
+                </div>
+              )
+            } )
+          }
+        </div>
         
       </main>
     </>
