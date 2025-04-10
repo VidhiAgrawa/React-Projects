@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import Practise from './Component/practise'
 
 function App() {
   const [ inputVal, setInputVal ] = useState("")
@@ -9,7 +8,6 @@ function App() {
 
   return (
     <>
-      {/* <Practise/> */}
       <main className='flex'>
         <div className="heading flex">
           <h1>To-Do List</h1>
@@ -50,7 +48,10 @@ function App() {
             todoList.map( (v, i) => {
               return(
                 <div className={`ans-content flex `} 
-                onClick={ () => setShow(!show) } 
+                onClick={ () => {
+                  setShow(!show)
+                  !show? alert("To-Do is now completed you can delete it") : "" 
+                } } 
                 key={i}
                 >
                   <div className={show ? "active" : ""}>
@@ -58,9 +59,10 @@ function App() {
                   </div>
                   <div className="cross" >
                     <i class="fa-regular fa-circle-xmark" 
-                    onClick={ () => ( 
-                      setTodoList( (prev) => prev.filter(( todo ) => todo != v) ) 
-                    ) }>  
+                    onClick={ () => { 
+                      setTodoList( (prev) => prev.filter(( todo ) => todo !== v) )
+                      alert("To-Do Deleted")
+                     } }>  
                     </i>
                   </div>
 
