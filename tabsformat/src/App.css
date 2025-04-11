@@ -1,0 +1,40 @@
+main{
+    height: 100vh;
+    width: 100vw;
+}
+.heading{
+    padding: 1em;
+    text-align: center;
+    height: 10%;
+}
+.tab-btn {
+    height: 10%;
+    
+    gap: 1em;
+}
+button.butn {
+    height: 50%;
+    width: 10%;
+}
+.ans-val {
+    height: 20%;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show{
+    padding: 0.5em;
+    height: 60%;
+    width: 70%;
+    padding: 0.5em;
+    display: flex;
+    transition: 0.5s;
+    background: #a6bdd1;
+}
+.hide{
+    transition: 0.5s;
+    visibility: hidden;
+}
