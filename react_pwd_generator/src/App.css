@@ -1,0 +1,66 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  height: 39em;
+}
+.checkinput1{
+  margin-top: 2em;
+  height: 2em;
+  display: flex;
+  width: 7.5em;
+  align-items: center;
+  font-size: 25px;
+  font-family: cursive;
+}
+.checkinput2{
+  height: 2em;
+  display: flex;
+  width: 7.5em;
+  align-items: center;
+  font-size: 25px;
+  font-family: cursive;
+}
+.checkinput3{
+  height: 2em;
+  display: flex;
+  width: 7.5em;
+  align-items: center;
+  font-size: 25px;
+  font-family: cursive;
+}
+.checkinput4{
+  font-size: 25px;
+  font-family: cursive;
+  height: 2em;
+  display: flex;
+  width: 7.5em;
+  align-items: center;
+}
+.inpt{
+  height: 3em;
+  width: 20em;
+  padding-left: 20px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px rgb(147, 145, 145), inset 2px 2px 7px  rgb(175, 170, 170);
+}
+/* .inpt::placeholder{
+  padding-left: 2px;
+} */
+.butn{
+  margin-top: 2em;
+  height: 3.5em;
+  width: 7em;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px black ,inset 2px 2px 7px black;
+}
