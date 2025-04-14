@@ -26,7 +26,7 @@ export default function Register() {
                     </div>
                     <div className="submit flex">
                         <button className="submit-btn" onClick={() => {
-                            usenavigate( '/' )
+                            usenavigate( '/quizz' )
                         }}>Submit</button>
                     </div>
                 </div>

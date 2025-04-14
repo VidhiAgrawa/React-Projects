@@ -8,20 +8,20 @@ function App() {
   const [ showMsg, setShowMsg ] = useState("")
   return (
     <>
-      <main className="quizz-main flex">
+      <main className="quizz-main ">
         <div className="heading flex">
           <h1>Quizz App</h1>
         </div>
-        <div className="quizz-app">
+        <div className="quizz-app flex">
           
-          <div className="quizz-content" >
-            <div className="quizz-que">{start+1}. {Data[start].question}</div>
+          <div className="quizz-content flex" >
+            <div className="quizz-que flex">{start+1}. {Data[start].question}</div>
             <div className="quizz-option flex">
               {
                 Object.entries(Data[start].options).map( ([v, i]) => {
                   return(
                     <button 
-                    className="opt" 
+                    className="opt flex" 
                     key={i}
                     onClick={ () => {
                       
@@ -47,15 +47,15 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="start">
+        <div className="start flex">
           <button className="start-btn" onClick={ () => {
             setStart( (prev) => prev < Data.length-1 ? prev + 1 : prev )
             if ( start == Data.length-1 ) alert("Questions finished can move to next set")
             setShowMsg("")
           } }>Start</button>
         </div>
-        {showMsg && <div >{showMsg}</div>}
-        <div className="score">{score}</div>
+        {showMsg && <div className='ans flex'>{showMsg}</div>}
+        <div className="score flex">Score :- {score}</div>
       </main>
     </>
   )
