@@ -15,7 +15,7 @@ function App() {
         <div className="quizz-app">
           
           <div className="quizz-content" >
-            <div className="quizz-que">{Data[start].question}</div>
+            <div className="quizz-que">{start+1}. {Data[start].question}</div>
             <div className="quizz-option flex">
               {
                 Object.entries(Data[start].options).map( ([v, i]) => {

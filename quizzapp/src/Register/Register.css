@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-main{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top, rgb(178,187,202), rgb(244,242,245));
+    
+}
+.register-box {
+    background: aliceblue;
+    height: 50%;
+    width: 24%;
+    flex-direction: column;
+}
+
+.img-box {
+    height: 40%;
+    width: 100%;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.register-content {
+    height: 60%;
+    width: 100%;
+    flex-direction: column;
+    gap: 1em;
+}
+.name-box,.age-box, .dob-box {
+    height: 15%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+input.name, .age, .dob {
+    height: 100%;
+    width: 55%;
+    border: none;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    transition: 1s;
+    border-bottom: 1px solid grey;
+    background-color: #f0f8ff;
+    padding-left: 1em;
+}
+input.name:hover, .age:hover, .dob:hover{
+    box-shadow: 3px 2px 5px grey;
+    transition: 1s;
+    border-radius: 1em;
+    background: white;
+    
+}
+span {
+    font-size: larger;
+}
+button.submit-btn {
+    height: 2.5em;
+    width: 6em;
+    border: none;
+    border-radius: 0.5em;
+    background: linear-gradient(to right, rgb(147 152 162), rgb(217 194 229));
+}
+.submit {
+    height: 20%;
+}
