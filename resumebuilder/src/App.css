@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.main-div{
+  height: 100vh;
+  width: 100vw;
+
+}
+.video-div{
+  height: 100%;
+  width: 100%;
+}
+body{
+  overflow: hidden;
+}
+.back-video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
