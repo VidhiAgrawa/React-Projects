@@ -1,0 +1,35 @@
+.main-top-nav {
+    top: 0;
+    height: 100%;
+    width: 96%;
+    justify-content: space-between;
+}
+.nav-main {
+    top: 0;
+    height: 100%;
+    width: 65%;
+    border-bottom: 1px solid white;
+}
+.logo {
+    /* position: absolute; */
+    top: 1em;
+    left: 2em;
+    font-size: larger;
+}
+.profile {
+    /* position: absolute; */
+    top: 1em;
+    right: 2em;
+    font-size: larger;
+}
+.navbar-div {
+    width: 85%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    font-size: larger;
+}
+.moon {
+    height: 1.4em;
+}
