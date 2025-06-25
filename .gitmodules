@@ -1,0 +1,3 @@
+[submodule "Choco-Pebble"]
+	path = Choco-Pebble
+	url = https://github.com/Codomania-Legends/Choco-Pebble.git
