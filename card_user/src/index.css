@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to left, #000000cc, #ffff);
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.card{
+  height: 25%;
+  width: 20%;
+  background-color: rgb(219, 212, 212);
+  flex-direction: column;
+  border-radius: 1em;
+}
+.full-card{
+  height: 35%;
+  width: 20%;
+  background-color: rgb(219, 212, 212);
+  flex-direction: column;
+  border-radius: 1em;
+}
