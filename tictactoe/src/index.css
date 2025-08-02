@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body, #root{
+  height: 100vh;
+  width: 100vw;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tic-main {
+    height: 50%;
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em;
+
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: grey;
+    flex-direction: column;
+    gap: 5em;
+}
+.baxsa{
+  border-radius: 1em;
+  background-color: #000;
+  color: white;
+  font-size: xx-large;
+}

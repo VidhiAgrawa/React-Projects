@@ -1,17 +1,16 @@
 import { useState } from 'react'
 import {Data} from "./Data.jsx"
 import './App.css'
-import Info from './info.jsx'
+import { useNavigate } from 'react-router'
 
 function App() {
-  const[ ide, setId ] = useState(0)
-
+  const navigate = useNavigate()
   return (
    <>
       <div className="main flex">
         {
           Data.map( (v, i) => (
-            <div className="card flex" key={i} onClick={ () => setId(i) }>
+            <div className="card flex" key={i} onClick={ () => navigate(`${v.id}`) }>
               <div className="id">{v.id}</div>
               <div className="name"> {v.name} </div>
               <div className="education"> {v.education} </div>
@@ -19,7 +18,7 @@ function App() {
            ) )
         }
       </div>
-      <Info ide={ide}  />
+
    </>
   )
 }
