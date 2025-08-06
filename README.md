@@ -1,9 +1,9 @@
-#React‑Projects 🛠️
-    A curated showcase of React.js applications built during my development journey.
-    This repository hosts various React-based projects that demonstrate concepts from basic UI components to full-stack applications, showcasing skills ranging from React Hooks and React Router to backend integration.
+#React‑Projects 🛠️<br>
+    A curated showcase of React.js applications built during my development journey.<br>
+    This repository hosts various React-based projects that demonstrate concepts from basic UI components to full-stack applications, showcasing skills ranging from React Hooks and React Router to backend integration.<br>
 
-#🚀 About Me
-    Name: Vidhi Agrawal
+#🚀 About Me<br>
+    Name: Vidhi Agrawal<br>
     Location: Indore, Madhya Pradesh, India
     Education: B.Tech Student at SVVV specializing in Full Stack Development 
 
