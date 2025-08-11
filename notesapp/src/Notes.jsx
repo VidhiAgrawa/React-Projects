@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import "./index.css"
 function Notes() {
     const [value, setValue] = useState("")
-    const [isbold, setBold] = useState(false)
     const [ notes, setNotes ] = useState([])
     useEffect( () => {
         localStorage.setItem('notes', `${notes}`)
@@ -35,8 +34,7 @@ function Notes() {
                 placeholder='Write Something Here...' 
                 className="text-input" 
                 onChange={ (e) => setValue( e.target.value ) }
-                value={value}
-                style={{fontWeight : isbold ? 'bold' : 'normal' }}/>
+                value={value}/>
             </div>
             <div className="sending-data flex">
                 <div className="bold-btn btn"><button className='bold' onClick={() => setBold(!isbold)}>B</button></div>

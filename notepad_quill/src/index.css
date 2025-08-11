@@ -1,0 +1,11 @@
+.send-btn.btn {
+    height: 5em;
+    width: 10em;
+}
+button.send {
+    height: 35%;
+    width: 55%;
+    /* border: none; */
+    /* outline: none; */
+    background-color: grey;
+}
