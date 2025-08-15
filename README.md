@@ -38,19 +38,19 @@
 ## Projects Overview  <br>
 
 <pre>| Project Name         | Description                                                                 |</pre><br>
-|----------------------|-----------------------------------------------------------------------------|<br>
-| Carmania             | Car-related UI or data demo—explores dynamic React rendering.               |<br>
-| card_user            | User card display—practices layout and component rendering.                 |<br>
-| extra                | Experimental or utility-related features (unspecified).                     |<br>
-| filedownloader       | File download demo—covers async handling and user-triggered downloads.      |<br>
-| formcreation         | Dynamic form building and validation exercise.                              |<br>
-| notepad_quill        | Notepad using Quill rich-text editor—great for content editing skills.      |<br>
-| notesapp             | CRUD notes application—state management practice.                           |<br>
-| quizzapp             | Quiz flow app—handles questions, scoring, and navigation.                   |<br>
-| react_pwd_generator  | Password generator with randomized output.                                  |<br>
-| resumebuilder        | Resume creation tool with form input and preview.                           |<br>
-| tabstabbing          | Tab-based navigation component setup.                                       |<br>
-| tictactoe            | Tic-Tac-Toe game—game logic and UI state practice.                          |<br>
-| todo                 | Simple to-do list—basic state updates and user interaction.                 |<br>
+<pre>|----------------------|-----------------------------------------------------------------------------|</pre><br>
+<pre>| Carmania             | Car-related UI or data demo—explores dynamic React rendering.               |</pre><br>
+<pre>| card_user            | User card display—practices layout and component rendering.                 |</pre><br>
+<pre>| extra                | Experimental or utility-related features (unspecified).                     |</pre><br>
+<pre>| filedownloader       | File download demo—covers async handling and user-triggered downloads.      |</pre><br>
+<pre>| formcreation         | Dynamic form building and validation exercise.                              |</pre><br>
+<pre>| notepad_quill        | Notepad using Quill rich-text editor—great for content editing skills.      |</pre><br>
+<pre>| notesapp             | CRUD notes application—state management practice.                           |</pre><br>
+<pre>| quizzapp             | Quiz flow app—handles questions, scoring, and navigation.                   |</pre><br>
+<pre>| react_pwd_generator  | Password generator with randomized output.                                  |</pre><br>
+<pre>| resumebuilder        | Resume creation tool with form input and preview.                           |</pre><br>
+<pre>| tabstabbing          | Tab-based navigation component setup.                                       |</pre><br>
+<pre>| tictactoe            | Tic-Tac-Toe game—game logic and UI state practice.                          |</pre><br>
+<pre>| todo                 | Simple to-do list—basic state updates and user interaction.                 |</pre><br>
 
 ---
