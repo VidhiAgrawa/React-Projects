@@ -38,7 +38,7 @@
 ## Projects Overview  <br>
 
 <pre>| Project Name         | Description                                                                 |</pre><br>
-<pre>|----------------------|-----------------------------------------------------------------------------|</pre><br>
+<pre>|----------------------|-----------------------------------------------------------------------------|</pre>
 <pre>| Carmania             | Car-related UI or data demo—explores dynamic React rendering.               |</pre><br>
 <pre>| card_user            | User card display—practices layout and component rendering.                 |</pre><br>
 <pre>| extra                | Experimental or utility-related features (unspecified).                     |</pre><br>
