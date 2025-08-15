@@ -4,34 +4,34 @@
 
 #🚀 About Me<br>
     Name: Vidhi Agrawal<br>
-    Location: Indore, Madhya Pradesh, India
-    Education: B.Tech Student at SVVV specializing in Full Stack Development 
+    Location: Indore, Madhya Pradesh, India<br>
+    Education: B.Tech Student at SVVV specializing in Full Stack Development <br>
 
-#Project Structure:-
-    React‑Projects/
-    ├── Project1/
-    │   ├── README.md
-    │   ├── package.json
-    │   └── src/
-    ├── Project2/
-    │   └── ...
-    └── README.md  (overview)
+#Project Structure:-<br>
+    React‑Projects/<br>
+    ├── Project1/<br>
+    │   ├── README.md<br>
+    │   ├── package.json<br>
+    │   └── src/<br>
+    ├── Project2/<br>
+    │   └── ...<br>
+    └── README.md  (overview)<br>
     
-#💻 Quick Start
-    1. Clone the repo:
-      git clone https://github.com/VidhiAgrawa/React-Projects.git
-    2. Navigate to a project folder:
-      cd React-Projects/ProjectName
-    3. Install and run:
-      npm install
-      npm start
-    4. Now Visit: http://localhost:3000
+#💻 Quick Start<br>
+    1. Clone the repo:<br>
+      git clone https://github.com/VidhiAgrawa/React-Projects.git<br>
+    2. Navigate to a project folder:<br>
+      cd React-Projects/ProjectName<br>
+    3. Install and run:<br>
+      npm install<br>
+      npm start<br>
+    4. Now Visit: http://localhost:3000<br>
 
 
-#📚 Technologies Used
-    React with Hooks & Context API
-    React Router for SPA navigation
-    State management using Redux or React Context
-    Styling with CSS, TailwindCSS, Material UI
+#📚 Technologies Used<br>
+    React with Hooks & Context API<br>
+    React Router for SPA navigation<br>
+    State management using Redux or React Context<br>
+    Styling with CSS, TailwindCSS, Material UI<br>
     
 
